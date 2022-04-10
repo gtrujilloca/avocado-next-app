@@ -5,6 +5,11 @@ import { PosMeMuero } from '@components/SVGIcons'
 
 const ModalHeaderContent = () => {
   return (
+    <Grid columns={2}>
+
+    </Grid>
+  )
+  return (
     <div className="container">
       <Grid columns={2}>
         <Grid.Row verticalAlign={'middle'}>
@@ -16,7 +21,7 @@ const ModalHeaderContent = () => {
             <p>Lo tocaste tanto que lo mataste.</p>
             <p>
               Por otro lado, eres una persona muy curiosa y has descubierto
-              esto. :)
+              esto.
             </p>
           </Grid.Column>
         </Grid.Row>
