@@ -7,10 +7,7 @@
     "dev": "NODE_OPTIONS='--inspect' next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc --noEmit",
-    "prepare": "husky install",
-    "pre-commit": "yarn pretty-quick --staged",
-    "pre-push": "yarn type-check"
+    "type-check": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",

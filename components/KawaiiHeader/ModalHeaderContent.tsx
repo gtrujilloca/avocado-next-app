@@ -5,11 +5,6 @@ import { PosMeMuero } from '@components/SVGIcons'
 
 const ModalHeaderContent = () => {
   return (
-    <Grid columns={2}>
-
-    </Grid>
-  )
-  return (
     <div className="container">
       <Grid columns={2}>
         <Grid.Row verticalAlign={'middle'}>
